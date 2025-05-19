@@ -1,0 +1,56 @@
+/* Reset and base styles */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden; /* Prevent horizontal scrollbar */
+  box-sizing: border-box;
+}
+
+/* Main container */
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 2rem;
+  background-color: #fff;
+  color: #222;
+
+  height: 100vh;    /* Full viewport height */
+  width: 100%;      /* Use 100% instead of 100vw to avoid overflow */
+  box-sizing: border-box;
+}
+
+/* Left and right sections */
+.about-left,
+.about-right {
+  flex: 1 1 400px;
+  margin: 1rem;
+  box-sizing: border-box;
+}
+
+/* Image styling */
+.about-left img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: block;
+  height: auto;
+}
+
+/* Right side headings */
+.about-right h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Right side paragraphs */
+.about-right p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
