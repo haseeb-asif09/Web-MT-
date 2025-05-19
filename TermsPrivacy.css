@@ -1,0 +1,43 @@
+/* TermsPrivacy.css */
+
+.terms-container {
+  max-width: 720px;
+  margin: 50px auto 80px;
+  padding: 35px 30px;
+  background-color: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.65;
+}
+
+.terms-container h2 {
+  font-size: 2.4rem;
+  color: #1e40af; /* deep blue */
+  margin-bottom: 18px;
+  border-bottom: 2px solid #2563eb;
+  padding-bottom: 8px;
+  letter-spacing: 0.6px;
+}
+
+.terms-container p {
+  font-size: 1.1rem;
+  margin-bottom: 28px;
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  .terms-container {
+    margin: 30px 20px 60px;
+    padding: 25px 20px;
+  }
+
+  .terms-container h2 {
+    font-size: 1.9rem;
+  }
+
+  .terms-container p {
+    font-size: 1rem;
+  }
+}
